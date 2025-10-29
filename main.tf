@@ -1,14 +1,5 @@
 ###https://github.com/MicrosoftLearning/AZ-104-MicrosoftAzureAdministrator/tree/master/Instructions/Labs
 
-
-### Disabled modules as using jenkins on kubernetes for cost saving
-# module "vms" {
-#   source = "./storage"
-#   it_group_name = var.it_group_name
-#   resource_group_name_prefix = var.resource_group_name_prefix
-#   resource_group_location = var.resource_group_location
-# }
-
 module "storage" {
   source = "./storage"
   resource_group_name_prefix = var.resource_group_name_prefix
@@ -34,6 +25,7 @@ module "k8s" {
   azure_sa_accesskey = module.storage.sa_accesskey
 }
 
+# Disabled modules as using dns of ips from kubernetes on aks for cost saving
 # module "dns" {
 #   source = "./dns"
 #   resource_group_name_prefix = var.resource_group_name_prefix
