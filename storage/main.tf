@@ -13,7 +13,7 @@ resource "azurerm_storage_account" "storage_account_rg1" {
 
 resource "azurerm_storage_share" "porfolio-share" {
   name                 = "portfoliofs"
-  storage_account_name = azurerm_storage_account.storage_account_rg1.name
+  storage_account_name = var.storage_account_rg01["name"]
   quota                = 1024
 }
 
