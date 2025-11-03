@@ -16,6 +16,7 @@ A Terraform configuration for deploying Daniel's portfolio on Azure Kubernetes S
 
 ## 🏗️ Architecture
 
+![alt text](img/arch.png)
 
 ## Setup Instruction
 
