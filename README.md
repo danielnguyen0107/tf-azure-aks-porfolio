@@ -49,3 +49,6 @@ A Terraform configuration for deploying Daniel's portfolio on Azure Kubernetes S
 
 # terraform apply 'tfplan'
 ```
+### 5. Config kubernetes 
+
+*Continue at https://github.com/danielnguyen0107/kube-portfolio*
