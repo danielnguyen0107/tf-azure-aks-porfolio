@@ -12,9 +12,11 @@ A Terraform configuration for deploying Daniel's portfolio on Azure Kubernetes S
 
 ## 🚀 Features
 
-**Managed Kubernetes**: Azure Kubernetes Service (AKS) cluster with auto-scaling
+**Kubernetes**: Azure Kubernetes Service (AKS) cluster using simple nginx configurations
 
 ## 🏗️ Architecture
+
+*keep it simple for low-cost*
 
 ![alt text](img/arch.png)
 
